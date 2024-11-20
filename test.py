@@ -5,7 +5,7 @@ import altair as alt
 # Add the uploaded image at the top of the page
 # Add the uploaded image at the top of the page
 #st.image("/Users/linda/Desktop/streamlit/IMG_0831.jpg", width=300)  # تحديد العرض بـ 300 بكسل
-
+st.image("IMG_0831.jpg", use_column_width=True) 
 st.markdown(
     """
     <style>
