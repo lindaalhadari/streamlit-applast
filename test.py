@@ -26,8 +26,11 @@ st.markdown(
 )
 
 # Load datasets
-file_path_2024 = '/Users/linda/Desktop/streamlit/2024_cleanedlast.csv'
-file_path_2023 = '/Users/linda/Desktop/streamlit/20233.csv'
+#file_path_2024 = '/Users/linda/Desktop/streamlit/2024_cleanedlast.csv'
+#file_path_2023 = '/Users/linda/Desktop/streamlit/20233.csv'
+file_path_2024 = '2024_cleanedlast.csv'
+file_path_2023 = '20233.csv'
+
 
 # Dataset Selector
 selected_year = st.radio("مجموعة البيانات عام :", ("٢٠٢٤", "٢٠٢٣"))
